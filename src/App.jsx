@@ -6,34 +6,34 @@ import { Gallery } from "./components/Gallery";
 import {Form} from './components/Form';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {History} from './components/History'
-import mirando from "./images/mirando.jpg";
+// import mirando from "./images/mirando.jpg";
 import anillo from "./images/anillo.jpg";
 import blackblondie from "./images/blackblondie.jpg";
 import blacklady from "./images/blacklady.jpg";
 import chain from "./images/chain.jpg";
-import fondo from "./images/fondo.webp";
-import fondo3 from "./images/fondo3.jpg";
-import jacket from "./images/jacket.jpg";
+// import fondo from "./images/fondo.webp";
+// import fondo3 from "./images/fondo3.jpg";
+// import jacket from "./images/jacket.jpg";
 import laughing from "./images/laughing.jpg";
 import morena from "./images/morena.jpg";
-import mujertriste from "./images/mujertriste.jpg";
-import sombrerorojo from "./images/sombrerorojo.jpg";
+// import mujertriste from "./images/mujertriste.jpg";
+// import sombrerorojo from "./images/sombrerorojo.jpg";
 import taza from "./images/taza.jpg";
-import womandreaming from "./images/womandreaming.jpg";
-import matrimonio from "./images/matrimonio.jpg";
+// import womandreaming from "./images/womandreaming.jpg";
+// import matrimonio from "./images/matrimonio.jpg";
 import luxury from "./images/luxury.jpg";
 import mask from "./images/mask.jpg";
 import native from "./images/native.jpg";
 import whitehat from "./images/whitehat.jpg";
-import pearsing from "./images/pearsing.jpg";
-import collar_lujoso from "./images/collar_lujoso.jpg";
+// import pearsing from "./images/pearsing.jpg";
+// import collar_lujoso from "./images/collar_lujoso.jpg";
 import anillo_lujoso from "./images/anillo_lujoso.jpg";
-import purpura from "./images/purpura.jpg";
-import fotografa from "./images/fotografa.jpg";
+// import purpura from "./images/purpura.jpg";
+// import fotografa from "./images/fotografa.jpg";
 import anillo_antiguo from "./images/anillo_antiguo.jpg";
 import boda from "./images/boda.jpg";
-import manos from "./images/manos.jpg";
-import rubia from "./images/rubia.jpg";
+// import manos from "./images/manos.jpg";
+// import rubia from "./images/rubia.jpg";
 
 function App() {
   const [tasks, setTasks] = useState([])
@@ -69,6 +69,7 @@ function App() {
           <Route path='/anillo_lujoso' element={<History source={anillo_lujoso} title='Eram Garden' detail='Eram Garden (Persian: باغ ارم, Bāgh-e Eram) is a historic Persian garden in Shiraz, Iran. The garden, and the building within it, are located at the northern shore of the Khoshk River in the Fars province.'/>}/>
           <Route path='/anillo_antiguo' element={<History source={anillo_antiguo} title='Golestan Palace' detail='The Golestan Palace (Persian: کاخ گلستان, Kākh-e Golestān), also transliterated as the Gulistan Palace[1] and sometimes translated as the Rose Garden Palace from Persian language,[1][2] was built in the 16th century, renovated in the 18th century and finally rebuilt in 1865. It is the former official royal Qajar complex in Tehran.'/>}/>
           <Route path='/boda' element={<History source={boda} title='Nasir-ol-Molk Mosque' detail='The Nasir al-Mulk Mosque (Persian: مسجد نصیر الملک Masjed-e Nasir ol-Molk), also known as the Pink Mosque (مسجد صورتی Masjed-e Surati), is a traditional mosque in Shiraz, Iran. It is located near Shāh Chérāgh Mosque. It was built during Qajar dynasty rule of Iran.'/>}/>
+        
         </Routes>
       </BrowserRouter>
   )
