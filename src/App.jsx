@@ -69,7 +69,6 @@ function App() {
           <Route path='/anillo_lujoso' element={<History source={anillo_lujoso} title='Eram Garden' detail='Eram Garden (Persian: باغ ارم, Bāgh-e Eram) is a historic Persian garden in Shiraz, Iran. The garden, and the building within it, are located at the northern shore of the Khoshk River in the Fars province.'/>}/>
           <Route path='/anillo_antiguo' element={<History source={anillo_antiguo} title='Golestan Palace' detail='The Golestan Palace (Persian: کاخ گلستان, Kākh-e Golestān), also transliterated as the Gulistan Palace[1] and sometimes translated as the Rose Garden Palace from Persian language,[1][2] was built in the 16th century, renovated in the 18th century and finally rebuilt in 1865. It is the former official royal Qajar complex in Tehran.'/>}/>
           <Route path='/boda' element={<History source={boda} title='Nasir-ol-Molk Mosque' detail='The Nasir al-Mulk Mosque (Persian: مسجد نصیر الملک Masjed-e Nasir ol-Molk), also known as the Pink Mosque (مسجد صورتی Masjed-e Surati), is a traditional mosque in Shiraz, Iran. It is located near Shāh Chérāgh Mosque. It was built during Qajar dynasty rule of Iran.'/>}/>
-        
         </Routes>
       </BrowserRouter>
   )
